@@ -1,0 +1,18 @@
+--- pavumeter-0.9.2/src/pavumeter.desktop.orig	2006-06-21 00:08:22.000000000 +0200
++++ pavumeter-0.9.2/src/pavumeter.desktop	2006-08-26 21:49:43.641641250 +0200
+@@ -1,10 +1,14 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+ Name=PulseAudio Volume Meter
++Name[pl]=Pomiar głośności PulseAudio
+ GenericName=Volume Meter
++GenericName=Pomiar głośności
+ Comment=Monitor the output or input volume
++Comment[pl]=Monitorowanie głośności wyjścia lub wejścia
+ Exec=pavumeter
+ Icon=audio-input-microphone
+ StartupNotify=true
+ Type=Application
+-Categories=Application;AudioVideo;Audio;
++Categories=GTK;AudioVideo;Audio;
++# vi:encoding=utf-8
