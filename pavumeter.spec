@@ -4,7 +4,7 @@ Name:		pavumeter
 Version:	0.9.2
 Release:	1
 License:	GPL v2+
-Group:		Applications/Sound
+Group:		X11/Applications/Sound
 Source0:	http://0pointer.de/lennart/projects/pavumeter/%{name}-%{version}.tar.gz
 # Source0-md5:	03e72b8e3f653d6af5b2be64b5d593d9
 Patch0:		%{name}-desktop.patch
