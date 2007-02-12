@@ -1,5 +1,5 @@
 Summary:	PulseAudio Volume Meter
-Summary(pl):	PulseAudio Volume Meter - pomiar g≥o∂no∂ci PulseAudio
+Summary(pl.UTF-8):   PulseAudio Volume Meter - pomiar g≈Ço≈õno≈õci PulseAudio
 Name:		pavumeter
 Version:	0.9.2
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PulseAudio Volume Meter (pavumeter) is a simple GTK+ volume meter for
 the PulseAudio sound server.
 
-%description -l pl
+%description -l pl.UTF-8
 PulseAudio Volume Meter (pavumeter) to prosta aplikacja GTK+ do
-pomiaru g≥o∂no∂ci dla serwera dºwiÍku PulseAudio.
+pomiaru g≈Ço≈õno≈õci dla serwera d≈∫wiƒôku PulseAudio.
 
 %prep
 %setup -q
