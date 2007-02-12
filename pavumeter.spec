@@ -1,5 +1,5 @@
 Summary:	PulseAudio Volume Meter
-Summary(pl.UTF-8):   PulseAudio Volume Meter - pomiar głośności PulseAudio
+Summary(pl.UTF-8):	PulseAudio Volume Meter - pomiar głośności PulseAudio
 Name:		pavumeter
 Version:	0.9.2
 Release:	1
