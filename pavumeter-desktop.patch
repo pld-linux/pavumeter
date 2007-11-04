@@ -1,15 +1,33 @@
---- pavumeter-0.9.2/src/pavumeter.desktop.orig	2006-06-21 00:08:22.000000000 +0200
-+++ pavumeter-0.9.2/src/pavumeter.desktop	2006-08-26 21:49:43.641641250 +0200
+--- pavumeter-0.9.3/src/pavumeter.desktop.orig	2007-08-07 02:20:01.000000000 +0200
++++ pavumeter-0.9.3/src/pavumeter.desktop	2007-11-04 14:21:45.370598074 +0100
 @@ -1,10 +1,14 @@
  [Desktop Entry]
  Encoding=UTF-8
- Name=PulseAudio Volume Meter
-+Name[pl]=Pomiar głośności PulseAudio
- GenericName=Volume Meter
-+GenericName=Pomiar głośności
- Comment=Monitor the output or input volume
-+Comment[pl]=Monitorowanie głośności wyjścia lub wejścia
+ Name=PulseAudio Volume Meter (Playback)
++Name[pl]=Pomiar głośności PulseAudio (odtwarzanie)
+ GenericName=Playback Volume Meter
++GenericName[pl]=Pomiar głośności odtwarzania
+ Comment=Monitor the output volume
++Comment[pl]=Monitorowanie głośności wyjścia
  Exec=pavumeter
+ Icon=audio-input-microphone
+ StartupNotify=true
+ Type=Application
+-Categories=Application;AudioVideo;Audio;
++Categories=GTK;AudioVideo;Audio;
++# vi:encoding=utf-8
+--- pavumeter-0.9.3/src/pavumeter-record.desktop.orig	2007-08-07 02:20:30.000000000 +0200
++++ pavumeter-0.9.3/src/pavumeter-record.desktop	2007-11-04 14:26:18.046136968 +0100
+@@ -1,10 +1,14 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+ Name=PulseAudio Volume Meter (Capture)
++Name[pl]=Pomiar głośności PulseAudio (nagrywanie)
+ GenericName=Capture Volume Meter
++GenericName[pl]=Pomiar głośności nagrywania
+ Comment=Monitor the input volume
++Comment[pl]=Monitorowanie głośności wejścia
+ Exec=pavumeter --record
  Icon=audio-input-microphone
  StartupNotify=true
  Type=Application
