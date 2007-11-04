@@ -1,17 +1,18 @@
 Summary:	PulseAudio Volume Meter
 Summary(pl.UTF-8):	PulseAudio Volume Meter - pomiar głośności PulseAudio
 Name:		pavumeter
-Version:	0.9.2
+Version:	0.9.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Sound
 Source0:	http://0pointer.de/lennart/projects/pavumeter/%{name}-%{version}.tar.gz
-# Source0-md5:	03e72b8e3f653d6af5b2be64b5d593d9
+# Source0-md5:	3a6b36cfefa8d6dd00084dafa50c934c
 Patch0:		%{name}-desktop.patch
 URL:		http://0pointer.de/lennart/projects/pavumeter/
 BuildRequires:	gtkmm-devel >= 2.4
 BuildRequires:	pkgconfig
-BuildRequires:	pulseaudio-devel >= 0.9.2
+BuildRequires:	pulseaudio-devel >= 0.9.7
+Requires:	pulseaudio-libs >= 0.9.7
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -42,6 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc ChangeLog README
 %attr(755,root,root) %{_bindir}/pavumeter
 %{_desktopdir}/pavumeter.desktop
+%{_desktopdir}/pavumeter-record.desktop
